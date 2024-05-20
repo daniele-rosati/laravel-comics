@@ -5,12 +5,12 @@
 
     <main class="row justify-content-center">
 
-        {{-- CARDS CONTAINER --}}
+        
         <div class="col-8 py-5">
 
             <div class="row row-cols-6 g-3">
 
-                {{-- CARDS --}}
+                
                 @foreach ($comics as $comic)
     
                     <div class="col-2">
@@ -33,7 +33,7 @@
                     </div>
 
                 @endforeach
-                {{-- END CARDS --}}
+               
 
                 <div class="col-12 d-flex justify-content-center align-items-center">
                 <a href="#" class="btn text-uppercase px-5 dc-more">load more</a>
@@ -42,8 +42,7 @@
             </div>
 
         </div>
-        {{-- END CARDS CONTAINER --}}
-
+        
     </main>
 
 </div>

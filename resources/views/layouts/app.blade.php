@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel Comics{{ Route::currentRouteName() == 'welcome' ? ' - Welcome' : ''}}</title>
+    <title>Laravel Comics</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -48,8 +48,10 @@
     
                 <div class="col-12 d-flex justify-content-center p-0 dc-jumbotron">
     
-                    <div class="col-8 position position-relative">
-                        <div style="background-image: url('resources/images/jumbotron.jpg');"></div> 
+                    <div class="col-8 " >
+                        <div>container hero</div>
+                        <!-- <div style="background-image: url('{{ asset('images/jumbotron.jpg') }}')"></div>  -->
+                        <!-- <div><img src="{{Vite::asset('resources/images/jumbotron.jpg')}}" alt=""></div> -->
     
                         <div class=" position-absolute top-100 translate-middle-y py-2 px-4 dc-currentSeries">
                             <h5 class="text-uppercase m-0">Current Series</h5>
